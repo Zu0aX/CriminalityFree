@@ -2122,8 +2122,4 @@ if game.PlaceId == 8343259840 then
 		end)
 	end
 end
-wait(1)
-local msg = "Notification, " .. game.Players.LocalPlayer.Name .. " just executed Zu0aX Criminality GUI"
-local url = "https://discord.com/api/webhooks/1018612236241092630/GZuohhMBV2CGdL4BYwJDHNinZcM6fvjEs3WqL6MQLwsfxDHOwKsATD5KfQIr8YqXSL9f"
 
-syn.request({Url = url, Method = "POST", Headers = {["Content-Type"] = "application/json"}, Body = game:GetService("HttpService"):JSONEncode({["content"]=msg})})
